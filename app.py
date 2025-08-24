@@ -10,7 +10,6 @@ from email.mime.multipart import MIMEMultipart
 
 app = Flask(__name__)
 
-# Inisialisasi pengenalan suara dan engine text-to-speech
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
